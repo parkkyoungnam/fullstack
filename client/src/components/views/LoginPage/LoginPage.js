@@ -5,8 +5,6 @@ import {useDispatch} from 'react-redux'
 import {loginUser } from '../../../_action/user_action'
 import { useNavigate } from 'react-router-dom'
 
-
-
 function LoginPage () {
 
   let navigate = useNavigate();

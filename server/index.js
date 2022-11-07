@@ -27,6 +27,11 @@ app.use(express.json());
 //auth 인증 부분 에러로 인한 코드 추가
 app.use(cooKieParser());
 
+
+
+
+
+
 app.get('/', (req, res) => res.send('hello world!!!'))
 
 app.get('/api/hello', (req, res) => {
